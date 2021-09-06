@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Typo */
+
+h1{
+    font-size: 25px;
+}
+h2{
+    font-size: 18px ;
+    display: inline-block;
+}
+p{
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+/* FINE TYPO */
+
+
+.container{
+    width: 63%;
+    margin: 30px auto;
+    background-color:rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding:80px;
+}
+
+header{
+    color: #00dd00;
+    text-align: center;
+}
+
+.logo{
+    width: 200px;
+    display: inline-block;
+}
+
+.logo > img{
+    width: 100%;
+}
+
+header nav {
+    background-color: #00dd00 ;
+    height: 35px;
+    padding:5px 0 ;
+}
+
+form > button{
+    padding: 1px 7px;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+main{
+    color: rgba(255, 255, 255, 0.918);
+}
+
+.sezioni{
+    margin: 18px 0;
+}
+
+.sezioni > input[type="checkbox"] {
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.barra{
+    height: 25px;
+    border-radius: 4px;
+}
+
+.barra-gino22{
+    background-color: #f5b453;
+    width: 35%;
+}
+
+.barra-mike24{
+    background-color: #1ec31e;
+    width: 60%;
+}
+
+.barra-fede154{
+    background-color: #be4141;
+    width: 15%;
+}
